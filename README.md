@@ -1,5 +1,12 @@
 # Squaregrid Implementation 
 
+<p float="left">
+  <img src="examples/dog_heatmap.png" width="300" />
+  <img src="examples/cat_heatmap.png" width="300" /> 
+</p>
+
+
+
 ----------
 
 Basic usage: 

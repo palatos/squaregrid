@@ -1,5 +1,5 @@
-## Squaregrid Implementation ##
-Original paper by Petsiuk et al.: https://arxiv.org/abs/1806.07421
+# Squaregrid Implementation 
+
 ----------
 
 Basic usage: 
@@ -11,8 +11,9 @@ explanation = explainer.explain(image,model)
 ```
 
 Generates a LIME explanation heatmap for image classifications using grids of squares as a segmentation. Provides a rough heatmap, but doesn't require as fine tuning like the other segmentation algorithms (Felzenszwalb, Quickshift, SLIC, etc)
+
 ----------
-# A note on image preprocessing and explanations
+## A note on image preprocessing and explanations
 The explain() function receives an image and a model.
 
 The image to be explained is expected to be in the input_shape used by the model, without any color

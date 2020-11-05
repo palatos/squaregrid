@@ -72,7 +72,17 @@ class SquareGrid:
         
         return final.astype(int)
 
-    def explain(self,image,model,hide_color=0, num_samples=1000, batch_size=200, top_labels = 1, progress_bar = False, verbose = 0, min_size = 8):
+    def explain(self,
+                image,
+                model,
+                hide_color=0, 
+                num_samples=1000, 
+                batch_size=200,
+                top_labels = 1, 
+                progress_bar = False,
+                verbose = 0,
+                min_size = 8
+                ):
 
         #Helper variable to calculate the size of basegrid.
         pow2 = int(np.ceil(np.log(np.max((image.shape[0],image.shape[1])))/np.log(2)))

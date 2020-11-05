@@ -78,7 +78,7 @@ class SquareGrid:
                 hide_color=0, 
                 num_samples=1000, 
                 batch_size=200,
-                top_labels = model.output_shape[1], 
+                top_labels = 1, 
                 progress_bar = False,
                 verbose = 0,
                 min_size = 8

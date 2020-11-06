@@ -36,7 +36,7 @@ class MyModel():
     def __init__(self,model):
         self.model = model
         self.input_shape = model.input_shape
-        self.input_shape = model.output_shape
+        self.output_shape = model.output_shape
         
     def predict(self, batch_images):
         
